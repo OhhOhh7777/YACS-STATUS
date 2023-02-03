@@ -1,0 +1,12 @@
+# Status Update (2023-02-03)
+Name: [ David Chiang ]
+Project: YACS
+
+Recommendation to YACS website design:
+1. Make the search bar more stand out, the current design is a bit hard to find on first sight, maybe bold the title?
+
+2. Add class time to the individual classes in the class display section under the course search, the current design lake the information and make 
+   deciding class hard.
+   
+3. Show whether or not a class block is a test block on the Displaying Schedule section, with this feature students can arrange their schedule more
+   easily if they don'y need to reserve time for that class block every week.
