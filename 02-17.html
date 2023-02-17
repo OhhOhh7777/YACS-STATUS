@@ -10,8 +10,10 @@
 <body>
     <div id="app">
         <p>Count is: {{ count }}</p>
-        <button @click="increment">click</button>
+        <button v-on:click="count++">click</button>
+        <!--<button @click="increment">click</button>-->
     </div>
     <script src="02-17.js"></script>
 </body>
 </html>
+
