@@ -1,0 +1,12 @@
+Needed file - access root to class session time info
+
+this.course
+
+sections
+
+select one sessions in the array - each represent one class time block
+
+time_start and time_end
+
+there is a console log command in CourseListing.vue that needed to be removed
+
