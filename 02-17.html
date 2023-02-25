@@ -12,7 +12,9 @@
         <p>{{title}} - {{author}}</p>
         <p>{{title2}} - {{author}}</p>
         <p>Count is: {{ count }}</p>
-        <button v-on:click="count++">click</button>
+        <button v-on:click="count++">increment</button>
+        <button @click="changeTitle">decrement</button>
+        <button @click="title = 'something else'">Change title</button>
         <!--<button @click="increment">click</button>-->
     </div>
     <script src="02-17.js"></script>

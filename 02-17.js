@@ -5,7 +5,7 @@ const app = Vue.createApp({
             title: ' The Final Empire 1',
             title2: 'The Final Empire 2',
             author: 'Brandon Sanderson',
-            age : 0,
+            age : 45,
             count: 0
         }
     },
@@ -13,6 +13,10 @@ const app = Vue.createApp({
     methods: {
         increment() {
           this.count++
+        },
+        changeTitle(){
+          console.log("you clicked me")
+          this.count--
         }
       }
 
