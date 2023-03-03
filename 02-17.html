@@ -19,7 +19,8 @@
         <button @click="title = 'something else'">Change title</button>
 
         <button @click="toggleshowtitle">
-            <span>Show Title</span>
+            <span v-if="!showTitle">Show Title</span>
+            <span v-if="showTitle">Hide Title</span>
         </button>
     </div>
     <script src="02-17.js"></script>
