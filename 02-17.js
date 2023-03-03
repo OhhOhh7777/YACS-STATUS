@@ -2,6 +2,7 @@ const app = Vue.createApp({
     // data, functions 
     data(){
         return {
+            showTitle: false,
             title: ' The Final Empire 1',
             title2: 'The Final Empire 2',
             author: 'Brandon Sanderson',
@@ -17,6 +18,10 @@ const app = Vue.createApp({
         changeTitle(){
           console.log("you clicked me")
           this.count--
+        },
+        toggleshowtitle() {
+          this.showTitle = !this.showTitle;
+          
         }
       }
 
