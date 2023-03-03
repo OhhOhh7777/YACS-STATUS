@@ -13,15 +13,19 @@
             <p>{{title}} - {{author}}</p>
             <p>{{title2}} - {{author}}</p>
         </div>
-        <p>Count is: {{ count }}</p>
-        <button v-on:click="count++">increment</button>
-        <button @click="changeTitle">decrement</button>
         <button @click="title = 'something else'">Change title</button>
-
         <button @click="toggleshowtitle">
             <span v-if="!showTitle">Show Title</span>
             <span v-if="showTitle">Hide Title</span>
         </button>
+        <br>
+
+        <p>Count is: {{ count }}</p>
+        <button v-on:click="count++">increment</button>
+        <button @click="changeTitle">decrement</button>
+
+        <div v-if="showTitle">Currently displaying title</div>
+
     </div>
     <script src="02-17.js"></script>
 </body>
