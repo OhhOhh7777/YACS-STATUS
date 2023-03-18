@@ -2,6 +2,7 @@ const app = Vue.createApp({
     // data, functions 
     data(){
         return {
+            url: 'https://www.nasaspaceflight.com',
             showTitle: false,
             books:[
                 {title: 'A1111', author: '1111A'},
