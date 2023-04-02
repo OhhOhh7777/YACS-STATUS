@@ -1,0 +1,19 @@
+Possible soultions to displaying what day in a week a session of a class belongs
+
+Currently the data is stored in numbers (0 - 6) representing Monday to Sunday
+
+If I want to display the information in day format I need to figure out how to convert initial
+
+Possible solutions:
+
+write a function to convert the information
+
+sudo code:
+
+std::string convert_day(int number){
+    array[7] weekday = {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday};
+
+    return array[number];
+}
+
+need to figure out how to do it in vue or attach it to vue
